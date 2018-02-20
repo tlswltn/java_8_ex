@@ -30,20 +30,23 @@ public class Schoolcontroller {
 			
 			int select = sc.nextInt();
 			switch(select) {
-			case 1 :
-				students=sa.addStudent();
-			
-				break;
-			
-			case 2 :
-				break;
+
+				case 1 :
+					students=sa.addStudent();
 				
-			case 3 :
-				break;
+					break;
 				
-			case 4 : 
-				break;
-				
+				case 2 :
+					ss.addPoint(Students);
+					break;
+					
+				case 3 :
+					sv.view(Students);
+					break;
+					
+				case 4 : 
+					break;
+					
 
 				}
 		}
