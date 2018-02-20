@@ -15,9 +15,9 @@ public class Schoolcontroller {
 	
 	public void start() {
 		Scanner sc = new Scanner(System.in);
-		StudentService = new StudentService();
-		StudentView sv = new StudentView();
-				
+		StudentService sa= new StudentService();
+		Studentview sv = new Studentview();
+		Student [] students =null;		
 		boolean check=true;
 		
 		while(check) {
@@ -30,8 +30,8 @@ public class Schoolcontroller {
 			
 			int select = sc.nextInt();
 			switch(select) {
-			case1 :
-				students==ss.addStudent();
+			case 1 :
+				students=sa.addStudent();
 			
 				break;
 			

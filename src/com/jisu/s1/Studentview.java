@@ -21,6 +21,6 @@ public class Studentview {
 	//메서드명 view 
 	//학생들의 정보를 출력
 	
-	
+	}
 
 }
