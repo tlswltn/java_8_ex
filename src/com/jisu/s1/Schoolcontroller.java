@@ -32,20 +32,28 @@ public class Schoolcontroller {
 			switch(select) {
 
 				case 1 :
-					students=sa.addStudent();
+					sa.addStudent();
 				
 					break;
 				
 				case 2 :
-					students=sv.addPoint(Students);
+					sv.addPoint(students);
 					break;
 					
 				case 3 :
-					sv.view(Students);
+					sa.search();
+					sv.viewStudents();
 					break;
 					
 				case 4 : 
+					sv.view(students);
 					break;
+					
+					default :
+						System.out.println("finish");
+						check=!check;
+						
+						
 					
 
 				}
