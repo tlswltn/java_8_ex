@@ -36,9 +36,11 @@ public class Schoolcontroller {
 				break;
 			
 			case 2 :
+				ss.addPoint(Students);
 				break;
 				
 			case 3 :
+				sv.view(Students);
 				break;
 				
 			case 4 : 

@@ -33,4 +33,21 @@ public class StudentService {
 			
 		}
 
+		//
+		public void addPoint(Student [] students) {
+			Scanner sc = new Scanner(System.in);
+			
+			for(int i=0; i<students.length;i++) {
+				System.out.println(students[i].name+"의 국어 점수 입력");
+				students[i].kor=sc.nextInt();
+				System.out.println(students[i].name+"의 영어 점수 입력");
+				students[i].math=sc.nextInt();
+				System.out.println(students[i].name+"의 수학 점수 입력");
+				students[i].math=sc.nextInt();
+				//total
+				
+			}
+			
+		}
+		
 }
