@@ -32,7 +32,6 @@ public class StudentService {
 			return students;	
 			
 		}
-}
 
 //
 
@@ -49,4 +48,13 @@ public class StudentService {
 				students[i].math=sc.nextInt();
 				//total
 				
+				//avg
+				students[i].avg = students[i].total/3.0;
+				
+				//search 메서드명
+				//번호를 입력 받아서 학생 한명을 찾아서
+				//해당 출력은 Studentview class의 viewstudent메서드
+				
+			}
+		}
 }

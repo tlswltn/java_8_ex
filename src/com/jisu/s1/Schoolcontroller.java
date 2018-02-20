@@ -37,7 +37,7 @@ public class Schoolcontroller {
 					break;
 				
 				case 2 :
-					ss.addPoint(Students);
+					students=sv.addPoint(Students);
 					break;
 					
 				case 3 :
